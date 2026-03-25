@@ -1,10 +1,5 @@
-// ============================================================
-//  Diagrama 4 — Animal / Mammal / Cat / Dog
-// ============================================================
-
-// ---- Animal (root superclass) ------------------------------
 class Animal {
-    private String name;
+    private final String name;
 
     public Animal(String name) { this.name = name; }
 
